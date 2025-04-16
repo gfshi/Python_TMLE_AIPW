@@ -1,13 +1,13 @@
 # Python_TMLE_AIPW
 
-This repository contains a lightweight and bias-aware implementation of **Average Treatment Effect (ATE)** estimation using two doubly robust methods: **Augmented Inverse Probability Weighting (AIPW)** and **Targeted Maximum Likelihood Estimation (TMLE)**.
+This repository contains a lightweight and bias-aware implementation of doubly robust **Average Treatment Effect (ATE)** wiht python code, including two most important doubly robust methods: **Augmented Inverse Probability Weighting (AIPW)** and **Targeted Maximum Likelihood Estimation (TMLE)**. 
 
-Designed for clarity and reproducibility, this implementation uses only core scientific Python packages: `pandas`, `numpy`, and `statsmodels`. It is especially suitable for researchers and practitioners who want interpretable and customizable code without relying on black-box machine learning libraries.
+Designed for clarity and reproducibility, the implementation only uses core scientific Python packages: `pandas`, `numpy`, and `statsmodels`. It is especially suitable for researchers and practitioners who want interpretable and customizable code without relying on black-box machine learning libraries.
 
 ## Highlights
 
 - ✅ Implements **AIPW** and **TMLE** with a focus on **bias correction**
-- ✅ Supports both **continuous** and **bounded probability outcomes**
+- ✅ Supports both **continuous** and **probability** outcomes
 - ✅ Minimal dependencies (`pandas`, `numpy`, `statsmodels`)
 - ✅ Clear and transparent logic for each step of the ATE pipeline
 
